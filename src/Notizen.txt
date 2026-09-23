@@ -74,3 +74,104 @@ span {color:blanchedalmond}
 
 /*Id Selector*/
 #eins {background-color: darkgrey;font-size: larger;block-size: 10cm;}
+
+
+
+
+Box-Abstände:
+
+App.js:
+
+import "./style.css"
+
+
+
+export default function App() {
+  return (
+    <div>
+
+
+      <div className="gruppe1">Hallo Welt 1</div>
+      <div>Hallo Welt 2</div>
+
+      <span className="gruppe1">Hallo Mars 1</span>
+      <span>Hallo Mars 2</span>
+
+
+
+
+
+
+
+    </div>
+  );
+}
+
+
+
+style.css:
+
+.gruppe1 {
+
+/*Box3/
+/*Border erstellen*/
+border: 1px solid red;
+
+/*Innenabstand (Border zu Inhalt)*/
+padding: 4px;
+
+/*Aussenabstand (Border zu anderen Elementen/Rand des Bildschirms)*/
+margin: 50px;
+
+/*Box-Breite (nur für Block-Elemente, Inline-Elemente reagieren nur auf Textbreite)*/
+width: 200px;
+
+
+
+}
+
+
+
+
+Flex-Box:
+
+App.js:
+
+import "./style.css"
+
+
+
+export default function App() {
+  return (
+    <div id="elter">
+
+      <div className="kind">Kind</div>
+      <div className="kind">Kind</div>
+      <div className="kind">Kind</div>
+
+
+
+
+
+    </div>
+  );
+}
+
+
+
+style.css:
+
+#elter {
+border: 2px solid black;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+.kind {
+border: 2px solid red;
+width: 100px
+
+
+}
