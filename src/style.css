@@ -1,0 +1,16 @@
+/*Universal Selector*/
+* {background-color: red;}
+
+
+/*Typ Selector*/
+div {background-color: aquamarine;}
+
+span {color:blanchedalmond}
+
+
+/*Klassen Selector*/
+.gruppe1 {background-color:darkorange;}
+
+
+/*Id Selector*/
+#eins {background-color: darkgrey;font-size: larger;block-size: 10cm;}

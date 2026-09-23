@@ -1,11 +1,20 @@
+import "./style.css"
+
+
+
 export default function App() {
   return (
     <div>
-      <div>Hallo Mars</div>
-      <button id="123" disabled> text </button>
-      <input id="124" type></input>
-      <input id="hallo125" type="checkbox" ></input>
-      <input id="hallo126" type="radio" ></input>
+
+
+      <div id="eins" className="gruppe1" style={{backgroundColor: "white", color: "blue"}}>Hallo Welt 1</div>
+      <div>Hallo Welt 2</div>
+
+      <span className="gruppe1">Hallo Mars 1</span>
+      <span>Hallo Mars 2</span>
+
+
+
 
 
 

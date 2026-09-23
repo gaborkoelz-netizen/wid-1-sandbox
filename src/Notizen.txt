@@ -1,6 +1,10 @@
 
 HTML Einführung:
 
+
+App.js:
+
+
 export default function App() {
   return (
     <div>
@@ -16,3 +20,57 @@ export default function App() {
     </div>
   );
 }
+
+
+
+
+CSS Einführung:
+
+
+App.js:
+
+
+import "./style.css"
+
+
+export default function App() {
+  return (
+    <div>
+
+
+      <div id="eins" className="gruppe1" style={{backgroundColor: "white", color: "blue"}}>Hallo Welt 1</div>
+      <div>Hallo Welt 2</div>
+
+      <span className="gruppe1">Hallo Mars 1</span>
+      <span>Hallo Mars 2</span>
+
+
+
+
+
+
+
+    </div>
+  );
+}
+
+
+
+style.css:
+
+/*Universal Selector*/
+* {background-color: red;}
+
+
+/*Typ Selector*/
+div {background-color: aquamarine;}
+
+span {color:blanchedalmond}
+
+
+/*Klassen Selector*/
+.gruppe1 {background-color:darkorange;}
+
+
+/*Id Selector*/
+#eins {background-color: darkgrey;font-size: larger;block-size: 10cm;}
