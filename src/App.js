@@ -5,7 +5,7 @@ export default function App() {
       <button id="123" disabled> text </button>
       <input id="124" type></input>
       <input id="hallo125" type="checkbox" ></input>
-      <input id="hallo125" type="radio" ></input>
+      <input id="hallo126" type="radio" ></input>
 
 
 
